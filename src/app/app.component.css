@@ -1,0 +1,60 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente si es necesario */
+    margin: 20px 0;
+    /* Espacio alrededor de la imagen */
+}
+
+.bg-3 {
+    background-color: rgb(170, 234, 225);
+}
+
+.bg-1 {
+    background-color: rgb(39, 41, 41);
+    font-size: large;
+}
+
+h3 {
+    color: rgb(10, 10, 10);
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.social-icons {
+    margin-top: 20px;
+    /* Espacio superior */
+}
+
+.social-icon {
+    margin: 0 10px;
+    /* Espacio entre íconos */
+    color: #cff2f2;
+    /* Color de los íconos */
+    font-size: 24px;
+    /* Tamaño de los íconos */
+    transition: color 0.3s;
+    /* Transición suave para el color */
+}
+
+.social-icon:hover {
+    color: #4CAF50;
+    /* Color al pasar el mouse */
+}
+
+.bg-3 {
+    color: #4CAF50;
+}
+
+.img-respon {
+    width: 400px;
+    height: 400px;
+}
